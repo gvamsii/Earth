@@ -57,7 +57,7 @@ public class StudentService {
 	}
 	
 	
-	/*public int[] insertall(List<StudentFields> sf)  // to insert data in huge 
+	public int[] insertall(List<StudentFields> sf)  // to insert data in huge 
 	{
 		List<Object[]> listobj = new ArrayList<Object[]>();
 
@@ -69,7 +69,7 @@ public class StudentService {
 		String s=( "insert into miraclestudents values(?,?,?)");
 		return jdbc.batchUpdate(s,listobj);
 	
-	}*/
+	}
 	
 	
 	public String create()    // to create table in data base
